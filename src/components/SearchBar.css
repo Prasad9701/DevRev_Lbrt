@@ -1,0 +1,48 @@
+.book-list {
+    list-style-type: none;
+    padding: 0;
+    max-height: 400px; 
+    overflow-y: scroll;
+     /* Enable vertical scroll if contents overflow */
+    color: rgb(249, 15, 171);
+
+  }
+  body{
+    background-color: bisque;
+  }
+  
+  .book-card {
+    display: flex;
+    flex-direction: row;
+    margin: 10px 0;
+    color: rgb(196, 18, 83);
+
+  }
+  
+  .book-image {
+    max-width: 50px;
+    max-height: 70px;
+    color: rgb(18, 137, 196);
+
+  }
+  
+  .book-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 10px;
+    color: rgb(18, 137, 196);
+  }
+  
+  .book-title {
+    margin: 0;
+    font-size: 16px;
+    color: rgb(18, 196, 27);
+  }
+  
+  .book-author {
+    margin: 0;
+    font-size: 14px;
+    color: rgb(196, 18, 18);
+  }
+  
